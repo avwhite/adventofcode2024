@@ -68,3 +68,10 @@ executable day03
     build-depends:    base ^>=4.17.2.1, parsec
     hs-source-dirs:   day03
     default-language: Haskell2010
+
+executable day04
+    import: warnings
+    main-is: Main.hs
+    build-depends:    base ^>=4.17.2.1, array
+    hs-source-dirs:   day04
+    default-language: Haskell2010
